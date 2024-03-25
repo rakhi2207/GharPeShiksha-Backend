@@ -1,5 +1,3 @@
-
-const { errorOut } = require('firebase-tools');
 const Tutor = require('../model/tutor');
 const bcrypt = require('bcrypt');
 const MatchedTutor = require('../model/TutorMatch');
