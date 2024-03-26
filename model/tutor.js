@@ -15,7 +15,7 @@ const tutor= class Tutor{
 
     save(){
         return db.execute(
-            `Insert into Tutor (phoneNumber, email, password, education, experience, address, selectedClass, subjects, mode) Values(?,?,?,?,?,?,?,?,?)`,
+            `Insert into tutor (phoneNumber, email, password, education, experience, address, selectedClass, subjects, mode) Values(?,?,?,?,?,?,?,?,?)`,
             [this.phoneNumber, this.email, this.password, this.education, this.experience, this.address, this.selectedClass, this.subjects, this.mode]
         );
     }
