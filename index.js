@@ -1,6 +1,6 @@
 const express = require('express');
-const router =  require('../routes/student');
-const tutorRoute = require('../routes/tutor')
+const router =  require('./routes/student');
+const tutorRoute = require('./routes/tutor')
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 dotenv.config();
